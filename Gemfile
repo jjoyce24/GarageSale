@@ -22,6 +22,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 #  Styling with bootstrap
 gem 'bootstrap-sass', '~> 3.0.3.0'
+# Add images to Listings
+gem "paperclip", "~> 3.0"
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
