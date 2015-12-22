@@ -24,6 +24,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass', '~> 3.0.3.0'
 # Add images to Listings
 gem 'paperclip', github: 'thoughtbot/paperclip'
+# Hosting images 
+gem "paperclip-dropbox", ">= 1.1.7"
+# Protects sensitive data
+gem "figaro"
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
