@@ -1,3 +1,4 @@
+source 'https://code.stripe.com'
 source 'https://rubygems.org'
 ruby "2.2.0"
 
@@ -30,6 +31,8 @@ gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
 # Authentication Solution
 gem 'devise'
+# Payment Solution
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
