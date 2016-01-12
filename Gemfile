@@ -33,6 +33,8 @@ gem "figaro"
 gem 'devise'
 # Pagination
 gem 'will_paginate', '~> 3.0'
+# Style pagination
+gem 'will_paginate-bootstrap'
 # Payment Solution
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # bundle exec rake doc:rails generates the API under doc/api.
