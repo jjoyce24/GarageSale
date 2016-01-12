@@ -31,6 +31,8 @@ gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
 # Authentication Solution
 gem 'devise'
+# Pagination
+gem 'will_paginate', '~> 3.0'
 # Payment Solution
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # bundle exec rake doc:rails generates the API under doc/api.
